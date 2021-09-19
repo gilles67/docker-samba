@@ -1,0 +1,2 @@
+!#/bin/bash
+/usr/sbin/smbd --foreground --no-process-group --log-stdout --debuglevel=2 --configfile=/app/samba/smb.conf
