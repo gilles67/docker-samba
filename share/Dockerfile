@@ -6,6 +6,6 @@ COPY app /app
 
 RUN apt-get update -y && apt-get install -y --no-install-recommends make && make -C /app
 
-EXPOSE 10024
+EXPOSE 445
 
 CMD ["/app/samba-run"]
